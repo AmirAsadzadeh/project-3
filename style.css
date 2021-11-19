@@ -1,0 +1,319 @@
+:root {
+  --main-white-back-color: rgb(248, 248, 248);
+  --main-black-font-color: rgb(25, 25, 25);
+  --main-purple: rgb(126, 76, 219);
+}
+@font-face {
+  font-family: "iransans";
+  src: url(fonts/IRANSansWeb.woff), url(fonts/IRANSansWeb_Bold.woff);
+}
+
+body {
+  background-color: var(--main-white-back-color);
+  font-family: "iransans";
+}
+
+/* HEADER */
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.profile-photo {
+  width: 35px;
+  border-radius: 50%;
+}
+#numb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  top: -10px;
+  left: 0px;
+}
+#nav-menu {
+  width: 550px;
+  display: none;
+  top: 40px;
+  right: -50px;
+}
+#nav-menu li {
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+#nav-menu li:hover {
+  background-color: var(--main-purple);
+  color: white;
+}
+#ham-menu:hover + #nav-menu {
+  display: block;
+}
+
+/* BANNER */
+#banner {
+  height: 350px;
+}
+#banner-img {
+  height: 50%;
+  background-image: url(images/banner.png);
+  background-position: top;
+  background-size: cover;
+}
+#banner-text {
+  height: 50%;
+}
+#banner-text p:nth-child(1) {
+  /* width: 200px; */
+  /* height: 50px; */
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: hsla(310, 48%, 75%, 1);
+  background-image: linear-gradient(
+    135deg,
+    hsla(278, 74%, 35%, 1) 13%,
+    hsla(238, 68%, 22%, 1) 100%
+  );
+}
+
+/* PROPS. */
+#properties img {
+  width: 30px;
+  height: 30px;
+}
+
+/* COURSES */
+#courses #courses-header img {
+  display: block;
+}
+#courses #courses-div figure {
+  height: 550px;
+  width: 90%;
+  margin: 15px auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#courses-img {
+  background-size: cover;
+  background-position: center;
+  height: 65%;
+}
+.ci-01 {
+  background-image: url(images/React.svg);
+}
+.ci-02 {
+  background-image: url(images/javascript.svg);
+}
+.ci-03 {
+  background-image: url(images/git.svg);
+}
+.ci-04 {
+  background-image: url(images/flex-grid.svg);
+}
+.ci-05 {
+  background-image: url(images/vs-code.png);
+}
+.ci-06 {
+  background-image: url(images/html-css.png);
+}
+#courses-btn {
+  border: 2px solid var(--main-purple);
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px;
+}
+#courses #courses-div figure figcaption {
+  height: 35%;
+}
+
+/* WHAT IS FRONT END SECTION */
+#what-is-front {
+  width: 90%;
+  margin: 80px auto;
+}
+#what-is-front #info-img {
+  grid-column: auto/ span 4;
+  margin: 20px 0;
+}
+#what-is-front #info-text {
+  grid-column: auto/ span 4;
+}
+
+/* STATICS */
+#statics {
+  width: 90%;
+  margin: 0 auto 100px;
+}
+
+/* FOOTER */
+footer {
+  background-color: rgb(240, 240, 240);
+}
+#footer {
+  width: 90%;
+}
+
+.sm-nav-height {
+  height: 65px;
+}
+/* margin */
+.margin-auto {
+  margin: auto;
+}
+.margin-15 {
+  margin: 15px;
+}
+.margin-top-bottom-10 {
+  margin: 10px 0;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-bottom-50 {
+  margin-bottom: 50px;
+}
+.margin-top-50 {
+  margin-top: 50px;
+}
+
+/* padding */
+.pad-left-10 {
+  padding-left: 10px;
+}
+.pad-right-10 {
+  padding-right: 10px;
+}
+.pad-top-10 {
+  padding-top: 10px;
+}
+.pad-bottom-10 {
+  padding-bottom: 10px;
+}
+.pad-left-right-15 {
+  padding: 0 15px;
+}
+.pad-top-bottom-10 {
+  padding: 10px 0;
+}
+.pad-10 {
+  padding: 10px;
+}
+.pad-20 {
+  padding: 20px;
+}
+
+/* flex */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-justify-content-center {
+  justify-content: center;
+}
+
+/* GRID */
+.sm-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+.sm-grid-set {
+  grid-column: auto/span 2;
+}
+.sm-grid-set-full {
+  grid-column: auto/span 4;
+}
+.sm-grid-center {
+  grid-column: 2/4;
+}
+
+/* fonts */
+.fs-12 {
+  font-size: 12px;
+}
+.fs-14 {
+  font-size: 14px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fw-bold {
+  font-weight: bold;
+}
+.ta-center {
+  text-align: center;
+}
+.main-font-white {
+  color: white;
+}
+.secondary-font-color {
+  color: #733dd8;
+}
+.main-font-black {
+  color: rgb(25, 25, 25);
+}
+.main-font-gray {
+  color: rgb(85, 85, 85);
+}
+
+/* position */
+.pos-rel {
+  position: relative;
+}
+.pos-abs {
+  position: absolute;
+}
+.top-2 {
+  top: 6%;
+}
+
+/* box-shadows */
+.box-shadow1 {
+  box-shadow: 0 0 50px -3px rgb(161, 161, 161);
+}
+.box-shadow2 {
+  box-shadow: 0 0 10px rgb(226, 226, 226);
+}
+
+/* border-radius */
+.border-ra-10 {
+  border-radius: 10px;
+}
+
+/* colors */
+.red {
+  background-color: #e74c3c;
+}
+.blue {
+  background-color: #3498db;
+}
+.green {
+  background-color: #2ecc71;
+}
+.yellow {
+  background-color: #f1c40f;
+}
+.white {
+  background-color: #fff;
+}

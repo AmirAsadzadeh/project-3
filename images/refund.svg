@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_refund" width="48" height="48" viewBox="0 0 48 48"><g id="Group_151549" data-name="Group 151549" transform="translate(-1 -1)"><path id="Path_1050" data-name="Path 1050" d="M51.18,9.245A18.713,18.713,0,0,0,40.539,3.913L39.1,4.735,41.04,6.421a16.45,16.45,0,1,1-8.731.643,1.193,1.193,0,1,0-.8-2.248A18.86,18.86,0,1,0,51.18,9.245Z" transform="translate(-12.993 3.814)" fill="#733dd8" stroke="#733dd8" stroke-miterlimit="10" stroke-width="0.5"/><path id="Path_1051" data-name="Path 1051" d="M42.157,1.476A1.193,1.193,0,0,0,40.47-.212l-4.4,4.535a1.193,1.193,0,0,0,0,1.688L39.926,11.5a1.193,1.193,0,0,0,1.688,0,.956.956,0,0,0,.17-1.211l-3.24-5.01Z" transform="translate(-12.054 3.563)" fill="#ffba21" stroke="#ffba21" stroke-miterlimit="10" stroke-width="0.5"/></g><text id="تومان" transform="translate(24 27)" fill="#ffba21" font-size="8" font-family="Dana-Black, Dana" font-weight="800"><tspan x="-10.16" y="0">تومان</tspan></text><rect id="Rectangle_140667" data-name="Rectangle 140667" width="48" height="48" fill="none"/></svg>
+
+
+<!-- ffba21 =>yellow -->
+<!-- #733dd8 => violet -->

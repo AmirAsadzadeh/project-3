@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  scroll-behavior: smooth;
+  list-style-type: none;
+  text-decoration: none;
+  color: inherit;
+}
+.container-fluid {
+  width: 100%;
+}
+.container {
+  max-width: 640px;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (min-width: 640px) {
+  .md-nav-height {
+    height: 80px;
+  }
+  .container {
+    max-width: 768px;
+  }
+  .md-fs-14 {
+    font-size: 14px;
+  }
+  .md-grid-10 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+  }
+  .md-grid-set-half {
+    grid-column: auto/span 2;
+  }
+  .md-grid-set-4-of-10 {
+    grid-column: 1/5;
+  }
+  .md-grid-set-2-of-10 {
+    grid-column: auto/span 2;
+  }
+  #banner {
+    height: 800px;
+  }
+  #banner-img {
+    height: 70%;
+  }
+  #banner-text {
+    height: 30%;
+  }
+  #banner-text p {
+    font-size: 18px;
+  }
+  #banner-text h4 {
+    font-size: 24px;
+  }
+  #properties img {
+    width: 35px;
+    height: 35px;
+  }
+  #statics h4 {
+    font-size: 24px;
+  }
+  #statics div:nth-child(2),
+  #statics div:nth-child(3),
+  #statics div:nth-child(4) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #footer {
+    grid-template-columns: repeat(10, 1fr);
+  }
+  #introduce {
+    grid-column: 1/9;
+  }
+  #zarinpal {
+    grid-column: 10/11;
+  }
+  #zarinpal img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 1366px;
+  }
+  #nav-menu {
+    width: 350px;
+    display: flex;
+    position: static;
+  }
+  #ham-menu {
+    display: none;
+  }
+  #banner {
+    height: 500px;
+    flex-direction: row;
+  }
+  #banner-img,
+  #banner-text {
+    width: 50%;
+    height: 100%;
+  }
+  #what-is-front #info-img {
+    grid-column: 1/3;
+    grid-row: 1/2;
+  }
+  #what-is-front #info-text {
+    grid-column: 3/5;
+    grid-row: 1/2;
+  }
+  .lg-grid-10 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 10px;
+  }
+  .lg-grid-12 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 0px;
+  }
+  .lg-grid-set-12 {
+    grid-column: auto/span 4;
+  }
+  .lg-grid-set {
+    grid-column: auto/span 2;
+  }
+}

@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Amir Ali Asadolahzadeh" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="fullsite">
+      <!--HEADER-->
+      <header class="container-fluid box-shadow1 white">
+        <nav
+          class="
+            container
+            margin-auto
+            sm-nav-height
+            md-nav-height
+            flex-row flex-space-between flex-align-center
+          "
+        >
+          <div id="right-box">
+            <ul class="flex-row">
+              <a href="">
+                <li class="pad-left-right-15">
+                  <img
+                    class="flex-row align-center"
+                    src="images/fh-logo.svg"
+                    alt=""
+                  />
+                </li>
+              </a>
+              <li class="pad-left-right-15 flex-row flex-align-center pos-rel">
+                <i
+                  id="ham-menu"
+                  class="fas fa-bars fs-24 secondary-font-color"
+                ></i>
+                <ul
+                  id="nav-menu"
+                  class="pos-abs flex-space-around main-font-gray white"
+                >
+                  <a href="">
+                    <li>خانه</li>
+                  </a>
+                  <a href="">
+                    <li>دوره های آموزشی</li>
+                  </a>
+                  <a href="">
+                    <li>بلاگ ها</li>
+                  </a>
+                  <a href="">
+                    <li>درباره ما</li>
+                  </a>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="left-box">
+            <ul class="flex-row">
+              <a class="flex-row flex-align-center" href="">
+                <li
+                  class="pad-left-right-15 pos-rel flex-row flex-align-center"
+                >
+                  <i
+                    class="fas fa-shopping-cart fs-24 secondary-font-color"
+                  ></i>
+                  <div
+                    id="numb"
+                    class="
+                      pos-abs
+                      flex-row flex-justify-content-center
+                      align-center
+                      red
+                    "
+                  >
+                    <span class="main-font-white fs-12 pos-abs top-2">0</span>
+                  </div>
+                </li>
+              </a>
+              <li class="pad-left-right-15 flex-row flex-align-center">
+                <img
+                  src="images/account-icon.png"
+                  alt=""
+                  class="profile-photo"
+                /><i
+                  class="fas fa-angle-down pad-right-10 secondary-font-color"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--MAIN PAGE-->
+      <main class="container margin-auto">
+        <article>
+          <!--BANNER SECTION-->
+          <section id="banner" class="flex-col">
+            <div id="banner-img"></div>
+            <div
+              id="banner-text"
+              class="flex-col flex-align-center flex-justify-content-center"
+            >
+              <h4 class="margin-15 fs-12">دوره آموزشی آکادمی فرانت هوکس</h4>
+              <p class="margin-15 fs-12">
+                برنامه نویسی را سریع، آسان و پروژه محور یاد بگیرید
+              </p>
+              <a href="" class="margin-15 fs-12"><p>مشاهده دوره ها</p></a>
+            </div>
+          </section>
+
+          <!--PROPERTIES SECTION-->
+          <section id="properties" class="sm-grid-4 lg-grid-10 margin-top-50">
+            <div class="sm-grid-set lg-grid-set margin-bottom-20">
+              <figure class="flex-col flex-align-center ta-center">
+                <img src="images/practical.svg" alt="" />
+                <figcaption>
+                  <h5
+                    class="fs-12 md-fs-14 main-font-black margin-top-bottom-10"
+                  >
+                    کاربردی و پروژه محور
+                  </h5>
+                  <p class="fs-12 main-font-gray pad-left-right-15">
+                    با کار بر روی یک پروژه واقعی، بازار رو از نزدیک لمس کنید
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="sm-grid-set lg-grid-set margin-bottom-20">
+              <figure class="flex-col flex-align-center ta-center">
+                <img src="images/time.svg" alt="" />
+                <figcaption>
+                  <h5
+                    class="fs-12 md-fs-14 main-font-black margin-top-bottom-10"
+                  >
+                    ویدیو های کوتاه و با کیفیت
+                  </h5>
+                  <p class="fs-12 main-font-gray pad-left-right-15">
+                    هر مبحث در قالب یک ویدیو کوتاه و کاربردی آماده شده است
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="sm-grid-set lg-grid-set margin-bottom-20">
+              <figure class="flex-col flex-align-center ta-center">
+                <img src="images/mentor.svg" alt="" />
+                <figcaption>
+                  <h5
+                    class="fs-12 md-fs-14 main-font-black margin-top-bottom-10"
+                  >
+                    همراه مربی
+                  </h5>
+                  <p class="fs-12 main-font-gray pad-left-right-15">
+                    با مربی های حرفه ای و با حوصله رفع اشکال میکنید
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="sm-grid-set lg-grid-set margin-bottom-20">
+              <figure class="flex-col flex-align-center ta-center">
+                <img src="images/quality.svg" alt="" />
+                <figcaption>
+                  <h5
+                    class="fs-12 md-fs-14 main-font-black margin-top-bottom-10"
+                  >
+                    تضمین کیفیت
+                  </h5>
+                  <p class="fs-12 main-font-gray pad-left-right-15">
+                    بهترین پشتیبانی و بروز ترین آموزش موجود در ایران رو دریافت
+                    میکنید
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+            <div class="sm-grid-center lg-grid-set margin-bottom-20">
+              <figure class="flex-col flex-align-center ta-center">
+                <img src="images/refund.svg" alt="" />
+                <figcaption>
+                  <h5
+                    class="fs-12 md-fs-14 main-font-black margin-top-bottom-10"
+                  >
+                    تضمین بازگشت وجه
+                  </h5>
+                  <p class="fs-12 main-font-gray pad-left-right-15">
+                    اگه راضی نبودید تا 15 روز فرصت دارین انصراف بدین
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <!--COURSES SECTION-->
+          <section id="courses">
+            <div id="courses-header">
+              <img
+                src="images/front-course-title.svg"
+                alt=""
+                class="margin-auto"
+              />
+            </div>
+            <div id="courses-div" class="sm-grid-4 lg-grid-12">
+              <figure
+                class="
+                  box-shadow2
+                  sm-grid-set-full
+                  md-grid-set-half
+                  lg-grid-set-12
+                "
+              >
+                <div id="courses-img" class="ci-01"></div>
+                <figcaption class="pad-20 flex-col flex-space-between">
+                  <h3 class="fs-18 main-font-black">
+                    دوره حرفه ای متخصص ریکت و ریداکس
+                  </h3>
+                  <p class="fs-14 main-font-gray">
+                    <i class="far fa-clock"></i> مدت دوره: 30 ساعت
+                  </p>
+                  <p class="fs-14 secondary-font-color">
+                    مشاهده دوره <i class="fas fa-arrow-left"></i>
+                  </p>
+                  <p id="courses-btn" class="fs-14 secondary-font-color">
+                    شما دانشجوی این دوره هستید، ادامه یادگیری؟
+                  </p>
+                </figcaption>
+              </figure>
+              <figure
+                class="
+                  box-shadow2
+                  sm-grid-set-full
+                  md-grid-set-half
+                  lg-grid-set-12
+                "
+              >
+                <div id="courses-img" class="ci-02"></div>
+                <figcaption class="pad-20 flex-col flex-space-between">
+                  <h3 class="fs-18 main-font-black">
+                    دوره جامع و پیشرفته جاوااسکریپت
+                  </h3>
+                  <p class="fs-14 main-font-gray">
+                    <i class="far fa-clock"></i> مدت دوره: 20 ساعت
+                  </p>
+                  <p class="fs-14 secondary-font-color">
+                    مشاهده دوره <i class="fas fa-arrow-left"></i>
+                  </p>
+                  <p id="courses-btn" class="fs-14 secondary-font-color">
+                    شما دانشجوی این دوره هستید، ادامه یادگیری؟
+                  </p>
+                </figcaption>
+              </figure>
+              <figure
+                class="
+                  box-shadow2
+                  sm-grid-set-full
+                  md-grid-set-half
+                  lg-grid-set-12
+                "
+              >
+                <div id="courses-img" class="ci-03"></div>
+                <figcaption class="pad-20 flex-col flex-space-between">
+                  <h3 class="fs-18 main-font-black">دوره گیت و گیت هاب</h3>
+                  <p class="fs-14 main-font-gray">
+                    <i class="far fa-clock"></i> مدت دوره: 3 ساعت
+                  </p>
+                  <p class="fs-14 secondary-font-color">
+                    مشاهده دوره <i class="fas fa-arrow-left"></i>
+                  </p>
+                  <p id="courses-btn" class="fs-14 secondary-font-color">
+                    شما دانشجوی این دوره هستید، ادامه یادگیری؟
+                  </p>
+                </figcaption>
+              </figure>
+              <figure
+                class="
+                  box-shadow2
+                  sm-grid-set-full
+                  md-grid-set-half
+                  lg-grid-set-12
+                "
+              >
+                <div id="courses-img" class="ci-04"></div>
+                <figcaption class="pad-20 flex-col flex-space-between">
+                  <h3 class="fs-18 main-font-black">
+                    دوره حرفه ای متخصص ریکت و ریداکس
+                  </h3>
+                  <p class="fs-14 main-font-gray">
+                    <i class="far fa-clock"></i> مدت دوره: 30 ساعت
+                  </p>
+                  <p class="fs-14 secondary-font-color">
+                    مشاهده دوره <i class="fas fa-arrow-left"></i>
+                  </p>
+                  <p id="courses-btn" class="fs-14 secondary-font-color">
+                    شما دانشجوی این دوره هستید، ادامه یادگیری؟
+                  </p>
+                </figcaption>
+              </figure>
+              <figure
+                class="
+                  box-shadow2
+                  sm-grid-set-full
+                  md-grid-set-half
+                  lg-grid-set-12
+                "
+              >
+                <div id="courses-img" class="ci-05"></div>
+                <figcaption class="pad-20 flex-col flex-space-between">
+                  <h3 class="fs-18 main-font-black">
+                    دوره پروژه محور فلکس و گرید
+                  </h3>
+                  <p class="fs-14 main-font-gray">
+                    <i class="far fa-clock"></i> مدت دوره: 1.5 ساعت
+                  </p>
+                  <p class="fs-14 secondary-font-color">
+                    مشاهده دوره <i class="fas fa-arrow-left"></i>
+                  </p>
+                  <p id="courses-btn" class="fs-14 secondary-font-color">
+                    شما دانشجوی این دوره هستید، ادامه یادگیری؟
+                  </p>
+                </figcaption>
+              </figure>
+              <figure
+                class="
+                  box-shadow2
+                  sm-grid-set-full
+                  md-grid-set-half
+                  lg-grid-set-12
+                "
+              >
+                <div id="courses-img" class="ci-06"></div>
+                <figcaption class="pad-20 flex-col flex-space-between">
+                  <h3 class="fs-18 main-font-black">دوره طراحی وب ریسپانسیو</h3>
+                  <p class="fs-14 main-font-gray">
+                    <i class="far fa-clock"></i> مدت دوره: 14 ساعت
+                  </p>
+                  <p class="fs-14 secondary-font-color">
+                    مشاهده دوره <i class="fas fa-arrow-left"></i>
+                  </p>
+                  <p id="courses-btn" class="fs-14 secondary-font-color">
+                    شما دانشجوی این دوره هستید، ادامه یادگیری؟
+                  </p>
+                </figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <!--WHAT IS FRONT END SECTION-->
+          <section id="what-is-front" class="sm-grid-4">
+            <div id="info-text">
+              <h3 class="fs-24">فرانت اند چیه؟</h3>
+              <p class="fs-14 main-font-black">
+                بذار خیلی خودمونی بدون تعاریف کلیشه ای بهت بگم که فرانت اند
+                (front-end) چیه؟ کیه و چیکار میکنه؟ هر وبسایت و یا اپلیکیشنی دو
+                بخش اساسی داره. یکی سمت سرور که کاربر نمیبینه و یکی سمت کاربر که
+                میشه همون ظاهر سایت. دقیقا درست حدس زدی، به چیزایی که ما مستقیما
+                باهاش کار میکنیم و میبینیم میگن فرانت سایت. مثل هدر، فوتر، بخش
+                اصلی محتوای سایت، فرم های ثبت نام و.. که پیاده کردن همه اینا به
+                عهده توسعه فرانت هست. با اومدن فریمورک های جذاب جاوااسکریپت مثل
+                ویو جی اس و کتابخونه ریکت وظیفه فرانت خیلی سنگین تر شده و خیلی
+                از کارا که قبلا توسعه دهنده بک اند انجام میشد، الان دیگه فرانت
+                کارا انجام میدن و همین دلیل باعث شده بازار استخدامی فرانت اند
+                خیلی داغ بشه و همه دنبال افراد متخصص توی این حوزه هستند. بهت
+                تبریک میگم به دنیای پر رمز وو راز جذاب برنامه نویسی وب و مخصوصا
+                فرانت، خوش اومدی. از تجربه ما استفاده کن و تا لحضه ورود به بازار
+                کار با نهایت افتخار کنارتیم.
+                <br />
+                <br />
+                <span style="font-weight: bold">میخوای بیشتر بدونی؟</span
+                ><span>
+                  توی
+                  <span class="secondary-font-color">
+                    وبینار رایگان ورود به دنیای برنامه نویسی وب </span
+                  >شرکت کن</span
+                >
+              </p>
+            </div>
+            <div id="info-img">
+              <img src="images/frontend-intro.svg" alt="" class="responsive" />
+            </div>
+          </section>
+
+          <!--STATIC SECTION-->
+          <section id="statics" class="sm-grid-4 md-grid-10 margin-bottom-50">
+            <div class="sm-grid-set-full md-grid-set-4-of-10">
+              <h4 class="fs-18">آمار ها باعث افتخار ما هستند</h4>
+              <p class="fs-14 main-font-gray">آخرین بروز رسانی: مرداد 1400</p>
+            </div>
+            <div
+              class="
+                sm-grid-set-full
+                md-grid-set-2-of-10
+                flex-row flex-space-between
+                pad-20
+                border-ra-10
+                white
+              "
+            >
+              <p class="fw-bold fs-18">4 +</p>
+              <p class="secondary-font-color">سال سابقه فعالیت حرفه ای</p>
+            </div>
+            <div
+              class="
+                sm-grid-set-full
+                md-grid-set-2-of-10
+                flex-row flex-space-between
+                pad-20
+                border-ra-10
+                white
+              "
+            >
+              <p class="fw-bold fs-18">500 +</p>
+              <p class="secondary-font-color">دانشجوی خصوصی و آنلاین</p>
+            </div>
+            <div
+              class="
+                sm-grid-set-full
+                md-grid-set-2-of-10
+                flex-row flex-space-between
+                pad-20
+                border-ra-10
+                white
+              "
+            >
+              <p class="fw-bold fs-18">95 % +</p>
+              <p class="secondary-font-color">رضایت از آموزش</p>
+            </div>
+          </section>
+        </article>
+      </main>
+      <footer class="container-fluid">
+        <div class="container margin-auto">
+          <div id="footer" class="sm-grid-4 margin-auto">
+            <div
+              id="introduce"
+              class="sm-grid-set-full pad-top-10 main-font-gray"
+            >
+              <p class="fs-14">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد
+                نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان
+                جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را
+                برای طراحان رایانه ای علی الخصوص طراحان خلاقی و فرهنگ پیشرو در
+                زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که تمام و
+                دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد
+                وزمان مورد نیاز شامل حروفچینی دستاوردهای اصلی و جوابگوی سوالات
+                پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
+              </p>
+              <div id="socials" class="flex-row flex-space-around fs-24 pad-20">
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-github"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-youtube"></i>
+              </div>
+            </div>
+            <div id="zarinpal">
+              <img src="images/zarinpal.svg" alt="" />
+            </div>
+            <p class="sm-grid-set-full">تمامی حقوق برای فرانت هوکس محفوظ است</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
